@@ -8,4 +8,4 @@ try:
     email = validate_email
     print(str(email))
 except:
-    print("Error DU Gumpfi")
+    print("Error DU elender Gumpfi")
