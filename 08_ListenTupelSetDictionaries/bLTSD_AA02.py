@@ -1,0 +1,5 @@
+lst1 = list(range(7,100,7))
+print(lst1)
+lst2 = list(range(7,100))
+ergebnis = filter(lambda x: x%7 == 0, lst2)
+print(list(ergebnis))

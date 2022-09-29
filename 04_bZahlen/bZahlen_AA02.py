@@ -1,0 +1,11 @@
+
+x = input("Geben Sie eine ganze Zahl ein\n")
+x = int(x)
+binX = bin(x)
+octX = oct(x)
+hexX = hex(x)
+print(binX, octX, hexX)
+decBin = int(binX,2)
+decOct = int(octX,8)
+decHex = int(hexX, 16)
+print(decBin, decOct, decHex)
